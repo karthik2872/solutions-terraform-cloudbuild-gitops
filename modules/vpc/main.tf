@@ -19,6 +19,7 @@ module "vpc" {
 
   project_id   = "${var.project}"
   network_name = "${var.env}"
+// Set to LOCAL  
   routing_mode = "LOCAL"
 
   subnets = [
